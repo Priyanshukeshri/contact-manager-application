@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import '../../node_modules/bulma/bulma.sass';
+@import '../../node_modules/bulma-spacing/bulma-spacing.scss';
+
+body {
+  background: #f5f6fa;
+}
+
+.align-left-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-contacts{
+  display: flex;
+  flex-direction: column;
+  
+}
